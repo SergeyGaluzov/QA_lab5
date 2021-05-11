@@ -1,7 +1,10 @@
 import entities.Basket;
+import net.serenitybdd.junit.runners.SerenityRunner;
 import org.hamcrest.Matchers;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
+@RunWith(SerenityRunner.class)
 public class BasketTest {
 
     @Test

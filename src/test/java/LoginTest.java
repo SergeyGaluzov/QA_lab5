@@ -1,14 +1,17 @@
 import entities.User;
 import io.restassured.response.Response;
+import net.serenitybdd.junit.runners.SerenityRunner;
 import org.hamcrest.Matchers;
 import org.junit.Test;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.runner.RunWith;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
 
+@RunWith(SerenityRunner.class)
 public class LoginTest {
 
 
@@ -29,7 +32,7 @@ public class LoginTest {
 
     @Test
     public void validateNotExistedUserReturn400(){
-        String id = "not existed";
+        String id = "b7011bbf-eaaa-4924-be41-1184602b5000";
         new ApiEndpoints().getPantryDetails(id).then().assertThat().statusCode(400);
     }
 
