@@ -27,7 +27,7 @@ public class LoginTest {
     {
         String id = "b7011bbf-eaaa-4924-be41-1184602b569d";
         User user = new ApiEndpoints().getPantryDetails(id).as(User.class);
-        assertEquals("Sergey Galuzov",user.getName());
+        assertEquals("Sergey Galuz",user.getName());
     }
 
     @Test
