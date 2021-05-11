@@ -24,7 +24,7 @@ public class BasketTest {
 
     @Test
     public void validateNotExistedBacketAndReturn400(){
-        new ApiEndpoints().getBasket("not existed basket").then().assertThat().statusCode(400); //228hvvvtrgggh
+        new ApiEndpoints().getBasket("not existed basket").then().assertThat().statusCode(400); //fefefefefwefewrgtyr5te6jhutry77ujty7uujty
     }
 
     @Test
