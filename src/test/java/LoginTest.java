@@ -26,7 +26,7 @@ public class LoginTest {
     public void validateUserByIdAndReturn()
     {
         String id = "b7011bbf-eaaa-4924-be41-1184602b569d";
-        User user = new ApiEndpoints().getPantryDetails(id).as(User.class); //xD228322
+        User user = new ApiEndpoints().getPantryDetails(id).as(User.class); //xD22832
         assertEquals("Sergey Galuz",user.getName());
     }
 
