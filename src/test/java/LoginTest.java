@@ -19,7 +19,7 @@ public class LoginTest {
     @Test
     public void validateUserByResponse200(){
         String id = "b7011bbf-eaaa-4924-be41-1184602b569d";
-        new ApiEndpoints().getPantryDetails(id).then().assertThat().statusCode(200);
+        new ApiEndpoints().getPantryDetails(id).then().assertThat().statusCode(200); //gergerger
     }
 
     @Test
