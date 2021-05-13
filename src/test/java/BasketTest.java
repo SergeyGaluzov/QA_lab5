@@ -13,7 +13,7 @@ public class BasketTest {
         basket.setDescr("description");
         basket.setIspayed(true);
         basket.setKeysLength(12);
-        new ApiEndpoints().createBasket(basket,"xxx").then().assertThat().statusCode(200);
+        new ApiEndpoints().createBasket(basket,"xxx").then().assertThat().statusCode(200); //g
     }
 
     @Test
